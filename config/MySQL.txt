@@ -1,0 +1,10 @@
+Password 8K890,DsLT*
+39.98.246.17
+
+grant all privileges on *.* to 'root'@'%' identified by '8K890,DsLT*' with grant option; 
+
+create user 'root'@'%' identified by '8K890,DsLT*';
+
+grant 权限列表 on 数据库 to '用户名'@'访问主机' ;
+
+grant all privileges on *.* to 'root'@'%' with grant option;
