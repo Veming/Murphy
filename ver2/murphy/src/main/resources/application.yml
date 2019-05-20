@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.98.246.17:3306/murphy?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 8K890,DsLT*
+  redis:
+    host: 39.98.246.17
+    port: 6379
+
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
