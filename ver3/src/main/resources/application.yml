@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.98.246.17:3306/murphy?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 8K890,DsLT*
+  redis:
+    host: 39.98.246.17
+    port: 6379
+  hadoop:
+    fs-uri: hdfs://39.98.246.17:9000
+    fsshell:
+      enabled: true
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+server:
+  port: 8080
